@@ -56,7 +56,7 @@ const submit = () => {
 <template>
     <AuthenticationCard>
         <template #logo>
-            <img src="/images/logo.png" class="h-14" />
+            <img src="/images/logo.png" class="h-14"  alt="logo"/>
         </template>
 
         <div>

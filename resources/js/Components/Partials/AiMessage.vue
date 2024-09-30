@@ -13,7 +13,7 @@
                 <span class="text-xs text-gray-500 leading-none">{{message.created_at_formatted}}</span>
             </div>
         </div>
-        <img class="rounded-full h-8 w-8" src="/images/writer_small.jpeg">
+        <img class="rounded-full h-8 w-8" src="/images/writer_small.png">
     </div>
 </template>
 

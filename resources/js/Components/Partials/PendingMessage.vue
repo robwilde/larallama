@@ -9,7 +9,7 @@
                 </div>
             </div>
         </div>
-        <img class="rounded-full h-8 w-8" src="/images/writer_small.jpeg">
+        <img class="rounded-full h-8 w-8" src="/images/writer_small.png">
     </div>
 </template>
 
