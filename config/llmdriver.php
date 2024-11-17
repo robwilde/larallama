@@ -59,10 +59,10 @@ return [
             'api_key' => 'ollama',
             'api_url' => env('OLLAMA_API_URL', 'http://localhost:11434/api/'),
             'models' => [
-                //@see https://github.com/ollama/ollama/blob/main/docs/openai.md
+                // @see https://github.com/ollama/ollama/blob/main/docs/openai.md
                 'completion_model' => env('OLLAMA_COMPLETION_MODEL', 'llama3'),
                 'embedding_model' => env('OLLAMA_EMBEDDING_MODEL', 'mxbai-embed-large'),
-                'chat_output_model' => env('OLLAMA_COMPLETION_MODEL', 'llama3'), //this is good to use other systems for better repsonses to people in chat
+                'chat_output_model' => env('OLLAMA_COMPLETION_MODEL', 'llama3'), // this is good to use other systems for better responses to people in chat
             ],
         ],
     ],
